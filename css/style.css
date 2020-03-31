@@ -1,0 +1,27 @@
+
+header{
+    background: url(../img/man.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.parallax-container{
+    height: 300px;
+}
+.tabs .indicator{
+    background: #1a237a;
+}
+.fixed [type="checkbox"] + label{
+    pointer-events: auto;
+  }
+
+@media screen and (max-width:670px){
+    header{
+        min-height: 400px;
+    }
+}
